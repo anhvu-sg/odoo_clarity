@@ -2,7 +2,7 @@
 {
     "name": "Odoo Clarity",
     "summary": "Odoo Clarity: is a free, easy-to-use tool that captures how real people actually use your site. Setup is easy and you'll start getting data in minutes.",
-    "version": "16.0.0.1",
+    "version": "16.0.0.2",
     "category": "Extra tools",
     "license": "LGPL-3",
     "author": "Vu Nguyen",
@@ -12,10 +12,11 @@
     "contributors": [
     ],
     "depends": [
-        'web',
+        'base_setup',
     ],
     "data": [
         'views/clarity_views.xml',
+        'views/inherited_res_config_settings_view.xml',
     ],
     "qweb": [
     ],
