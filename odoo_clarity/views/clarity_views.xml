@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="odoo_clarity"  name="Odoo Clarity" inherit_id="web.layout">
+    <template id="odoo_clarity"  name="Odoo - Microsoft Clarity" inherit_id="web.layout">
         <xpath expr="//head" position="inside">
             <script type="text/javascript">
                 var session_info = <t t-out="json.dumps(request.env['ir.http'].session_info())"/>;

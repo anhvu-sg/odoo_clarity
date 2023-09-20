@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 {
-    "name": "Odoo Clarity",
-    "summary": "Odoo Clarity: is a free, easy-to-use tool that captures how real people actually use your site. Setup is easy and you'll start getting data in minutes.",
-    "version": "15.0.0.2",
+    "name": "Odoo - Microsoft Clarity",
+    "summary": "Odoo - Microsoft Clarity: is a free, easy-to-use tool that captures how real people actually use your site. Setup is easy and you'll start getting data in minutes.",
+    "version": "15.0.0.3",
     "category": "Extra tools",
     "license": "LGPL-3",
     "author": "Vu Nguyen",
