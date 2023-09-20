@@ -1,4 +1,4 @@
-# Odoo Clarity
+# Odoo - Microsoft Clarity
 
 ## Add a Project
 
