@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.odoo.clarity</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base_setup.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//block[@name='integration']" position="inside">
+                <div class="col-12 col-lg-6 o_setting_box">
+                    <!-- <div class="o_setting_left_pane">
+                        <field name="odoo_clarity" nolabel="1"/>
+                    </div> -->
+                    <div class="o_setting_right_pane">
+                        <span class ="o_form_label">Microsoft Clarity</span>
+                        <div class="text-muted">
+                            Clarity is a free, easy-to-use tool that captures how real people actually use your site.
+                        </div>
+                        <div class="content-group">
+                            <div class="row mt16">
+                                <label for="odoo_clarity_tracking_code" class="col-4 col-lg-4 o_light_label"/>
+                                <field name="odoo_clarity_tracking_code" nolabel="1"/>
+                            </div>
+                        </div>
+                        <div class ="text-rigth" style="position:relative;">
+                            <a class="oe_link"  href="https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup" target="_blank">
+                                <i class="fa fa-arrow-right"/>
+                                Get clarity tracking code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
